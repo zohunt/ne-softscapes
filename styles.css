@@ -40,24 +40,10 @@ a {
   z-index: 100;
 }
 
-.nav-logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--tertiary);
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;   /* small spacing between icon and text */
-}
-
-.nav-logo-icon {
-  width: 1.2em;          /* small & subtle */
-  height: 1.2em;         /* square to match text line height */
-  object-fit: contain;
-  vertical-align: middle;  /* align nicely with text */
-  border-radius: 4px;      /* subtle rounding, optional */
-  box-shadow: none;         /* remove heavy shadows for navbar */
-  background: none;         /* no background color */
-  padding: 0;               /* remove padding */
+.nav-logo { 
+  font-size: 1.5rem; 
+  font-weight: 700; color: 
+    var(--tertiary); 
 }
 
 .nav-links {
