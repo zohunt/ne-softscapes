@@ -357,22 +357,6 @@ a {
   color: var(--tertiary);
 }
 
-.contact-logo {
-  width: 130px;                        /* same size as hero logo */
-  height: 130px;                       /* keep it square */
-  display: block;
-  margin: 1.5rem auto 2rem;            /* center & spacing */
-  
-  border: 4px solid var(--primary);    /* border color */
-  border-radius: 20px;                 /* rounded square */
-  padding: 6px;                        /* space inside border */
-  
-  /* subtle glow effect */
-  box-shadow: 0 6px 20px rgba(231, 120, 90, 0.3), 0 0 15px rgba(242, 201, 76, 0.2);
-  
-  background-color: var(--light);      /* matches page background */
-}
-
 /* ========== FOOTER ========== */
 .footer {
   text-align: center;
