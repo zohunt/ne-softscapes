@@ -357,6 +357,13 @@ a {
   color: var(--tertiary);
 }
 
+.contact-icon {
+  width: 50px; /* adjust as needed */
+  height: 50px; /* adjust as needed */
+  display: block;
+  margin: 0 auto 0.75rem; /* center the icon and add spacing below */
+}
+
 /* ========== FOOTER ========== */
 .footer {
   text-align: center;
