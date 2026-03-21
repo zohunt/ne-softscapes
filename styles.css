@@ -46,14 +46,13 @@ a {
   color: var(--tertiary);
   display: flex;
   align-items: center;   /* vertically center icon with text */
-  gap: 0.5rem;           /* space between logo icon and text */
+  gap: 0.5rem;           /* space between icon and text */
 }
 
 .nav-logo-icon {
-  width: 30px;            /* adjust size as needed */
-  height: 30px;
-  display: block;
-  object-fit: contain;     /* keeps aspect ratio */
+  width: 1.2em;          /* match the text height */
+  height: 1.2em;         /* keeps it square */
+  object-fit: contain;    /* maintains aspect ratio */
 }
 
 .nav-links {
