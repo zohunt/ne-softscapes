@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact · Bloom & Co.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">🌿 Bloom & Co.</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Our Work</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="page-header">
+    <h1>Let's Talk Dirt 🌱</h1>
+    <p>Got a project in mind? Just curious? Either way, we'd love to hear from you.</p>
+  </header>
+
+  <section class="contact-section">
+    <form class="contact-form" action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Jamie Smith" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="jamie@email.com" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="phone">Phone (optional)</label>
+        <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+      </div>
+      
+      <div class="form-group">
+        <label for="service">What are you interested in?</label>
+        <select id="service" name="service">
+          <option value="">Pick one...</option>
+          <option value="lawn">Lawn Care</option>
+          <option value="garden">Garden Design</option>
+          <option value="hardscape">Hardscaping</option>
+          <option value="full">Full Yard Makeover</option>
+          <option value="other">Something Else</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Tell us about your project</label>
+        <textarea id="message" name="message" rows="5" placeholder="My backyard is basically a jungle and I need help..."></textarea>
+      </div>
+      
+      <button type="submit" class="btn btn-primary btn-full">Send It 🚀</button>
+    </form>
+
+    <div class="contact-info">
+      <div class="info-card">
+        <h3>📍 Based In</h3>
+        <p>Austin, TX<br>Serving the greater Austin area</p>
+      </div>
+      <div class="info-card">
+        <h3>📞 Call or Text</h3>
+        <p>(555) 123-LAWN</p>
+      </div>
+      <div class="info-card">
+        <h3>📧 Email</h3>
+        <p>hello@bloomandco.com</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Bloom & Co. Landscaping · Made with 🌻 and good soil</p>
+  </footer>
+</body>
+</html>
