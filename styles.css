@@ -357,11 +357,18 @@ a {
   color: var(--tertiary);
 }
 
-.contact-icon {
-  width: 50px; /* adjust as needed */
-  height: 50px; /* adjust as needed */
+.contact-logo {
+  width: 60px;                       /* smaller than hero logo */
+  height: 60px;
   display: block;
-  margin: 0 auto 0.75rem; /* center the icon and add spacing below */
+  margin: 0 auto 1rem;               /* centered, spacing below logo */
+  
+  border: 3px solid var(--primary);  /* card-friendly border */
+  border-radius: 50%;                /* circular badge effect */
+  padding: 4px;                      /* smaller padding inside border */
+
+  box-shadow: 0 4px 10px rgba(231, 120, 90, 0.3); /* subtle depth */
+  background-color: var(--light);    /* matches card background */
 }
 
 /* ========== FOOTER ========== */
