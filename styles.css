@@ -50,8 +50,8 @@ a {
 }
 
 .nav-logo-icon {
-  width: 24px;          /* small & subtle */
-  height: 24px;         /* square to match text line height */
+  width: 1.2em;          /* small & subtle */
+  height: 1.2em;         /* square to match text line height */
   object-fit: contain;
   vertical-align: middle;  /* align nicely with text */
   border-radius: 4px;      /* subtle rounding, optional */
